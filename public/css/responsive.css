@@ -1,0 +1,2085 @@
+@media only screen and (min-width: 0px) and (max-width: 220px) {
+    /*  Index page */
+    .aside .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .chatmenu {
+        height:auto!important;
+    }
+    .chatmenu {
+        height:auto!important;
+    }
+    .chatlist1{
+        display: none;
+    }
+    .userdetails {
+        padding: 0 15px;
+    }
+    .usericon i {
+        font-size: 35px;
+    }
+    .logo img {
+        width: 45%;
+    }
+    #toggle {
+        float: right;
+        margin: 15px auto 2px;
+    }
+
+    .article_header span {
+        font-size: 19px;
+    }
+    .profile label {
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    .profile .form-group {
+        padding-bottom: 25px;
+    }
+    .profile .form-group select {
+        width: 70% !important;
+    }
+    #tag {
+        width: 100%;
+    }
+    .browse {
+        font-size: 12px;
+    }
+    .uploadbtns{
+        margin-top: 10px;
+    }
+    .uploadbtns p {
+        float: left;
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 10px!important;
+    }
+    .uploadbtns > div input{
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .uploadbtns .col-sm-12{
+        padding-left: inherit!important;
+        padding-right: inherit!important;
+    }
+    .profilebtn, .profilebtn1 {
+        font-size: 12px;
+        margin-bottom: 5px;
+        padding: 0px 3px !important;
+    }
+    .popupbtns {
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .chatbtn, .msgbtn {
+        font-size: 12px !important;
+        height: 25px;
+        padding: 0 5px !important;
+        width: 90px;
+    }
+    .profile .form-group .checkbox label {
+        font-size: 12px;
+    }
+
+    /*  history page  */
+
+    .article .col-md-12{
+        float: left;
+    }
+    .header .history {
+        font-size: 14px;
+    }
+    .count{
+       margin-bottom: 5px;
+    }
+    .chatcount {
+        padding-left: 17px;
+        width: 100%;
+        margin-bottom: 0px!important;
+    }
+    .chatcount li{
+        font-size: 12px;
+        line-height: 14px;
+        padding-right: 4px;
+    }
+    .chatcount > li:first-child {
+        margin-right:inherit;
+    }
+    .chatviewbtn {
+        padding: 1px 0 !important;
+        font-size: 12px;
+    }
+    #triangle-left {
+        border-bottom: 13px solid transparent;
+        border-top: 14px solid transparent;
+        top: 2px;
+        margin-left: 17px;
+    }
+    .search{
+        width: 100%;
+    }
+    .searchfilter {
+        width:75%;
+    }
+    .clearbtn{
+        margin-top: 5px;
+    }
+    .action {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .chatsearch input ,.chatsearch select,.chatsearch button{
+        font-size: 12px;
+    }
+    .count {
+        float: left;
+        width: 100%;
+    }
+    .pagination{
+        float: left;
+        padding-left: 17px;
+        padding-top: 10px;
+    }
+    .chatviewbtn i {
+        padding-right: 4px;
+    }
+    .pagination > li > a, .pagination > li > span {
+        padding: 2px 8px;
+    }
+    .pagination li{
+        font-size: 12px;
+    }
+    .table > thead > tr > th, .table > tbody > tr > td {
+        padding-left: 0px !important;
+        font-size: 12px;
+    }
+
+    /* edit agent */
+
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .agentform .form-group input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+    .agentform .form-group .reset {
+        width: 100%;
+    }
+    .profile label {
+        font-size: 12px;
+    }
+    .agentform .form-group .checkbox p, .agentform .form-group .status p {
+        font-size: 12px;
+    }
+    .status .btn {
+        padding: 3px 4px !important;
+        font-size: 12px;
+    }
+    .agent.header {
+        font-size: 15px;
+    }
+
+    /* visitor list page */
+
+    .visitor{
+        font-size: 13px!important;
+    }
+    .count > p {
+        font-size: 11px;
+    }
+    .accordion-toggle {
+        font-size: 13px;
+    }
+    .accordion-toggle i {
+        font-size: 12px;
+        height: 20px;
+        margin-right: 5px;
+        padding-top: 2px;
+        width: 20px;
+    }
+    .accordion-toggle > span {
+        padding-left: 7px;
+        text-decoration: inherit !important;
+        font-size: 11px;
+    }
+    .togglecount {
+        float: right;
+        position: relative;
+        top: 5px;
+        font-size: 11px;
+    }
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_content .col-md-3 {
+        float: left;
+        width: 100%;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .chat .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-2{
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-10{
+        float: left;
+        width: 100%;
+    }
+    .chattable .table > thead > tr > th, .table > tbody > tr > td {
+        font-size: 9px;
+        padding: 0 !important;
+    }
+    #toggle{
+        display: block!important;
+    }
+}
+@media only screen and (min-width: 221px) and (max-width: 320px) {
+      /*Index page */
+    .aside .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .chatmenu {
+        height:auto!important;
+    }
+    .chatlist1{
+        display: none;
+    }
+    .userdetails {
+        padding: 0 15px;
+    }
+    .usericon i {
+        font-size: 35px;
+    }
+    .logo img {
+        width: 30%;
+    }
+    #toggle {
+        float: right;
+        margin: 8px auto 2px;
+        padding-top: 10px;
+        display: block !important;
+        position: relative;
+        right: 15px;
+        top: -30px;
+        width: 7%;
+    }
+
+    .aside .col-md-12.iconright{
+        float: left;
+        width:50%!important;
+    }
+    .userdetails {
+        border-bottom: inherit;
+        box-shadow: none;
+        float: right;
+        padding: 10px 15px 10px 17px;
+        position: relative;
+        top: 17px;
+        /*width: 74%;*/
+    }
+    .username{
+        display: none;
+    }
+    .usericon{
+        width: inherit;
+    }
+    .usericon i {
+        font-size: 29px;
+        position: relative;
+    }
+    .iconright .logo{
+        padding: 20px 0 18px;
+    }
+    .logo img {
+        width: 60%;
+    }
+    .chat_user {
+        position: relative;
+        right: -50%;
+    }
+
+    .profile label {
+        padding-bottom: 10px;
+    }
+    .profile .form-group {
+        padding-bottom: 25px;
+    }
+    #tag {
+        width: inherit;
+    }
+    .uploadbtns{
+        margin-top: 10px;
+    }
+    .uploadbtns p {
+        float: left;
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 10px!important;
+    }
+    .uploadbtns > div input{
+        margin-bottom: 5px;
+    }
+    .uploadbtns .col-sm-12{
+        padding-left: inherit!important;
+        padding-right: inherit!important;
+    }
+    .profilebtn, .profilebtn1 {
+        padding: 3px 8px !important;
+        font-size: 12px!important;
+    }
+    .popupbtns {
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .profile .form-group .checkbox label {
+        font-size: 12px;
+    }
+    .chatbtn, .msgbtn {
+        font-size: 12px;
+        width: 110px;
+    }
+    .agentform .form-group .checkbox p, .agentform .form-group .status p {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    /*  history page  */
+
+    .article .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .header .history {
+        font-size: 14px;
+    }
+    .chatcount {
+        padding-left: 17px;
+        width: 100%;
+        margin-bottom: 0px!important;
+    }
+    .chatcount li{
+        font-size: 12px;
+        line-height: 14px;
+        padding-right: 4px;
+    }
+    .chatcount > li:first-child {
+        margin-right:inherit;
+    }
+    .chatviewbtn {
+        padding: 1px 0 !important;
+        font-size: 12px;
+    }
+    #triangle-left {
+        border-bottom: 13px solid transparent;
+        border-top: 14px solid transparent;
+        top: 2px;
+        margin-left: 17px;
+    }
+    .search{
+        width: 100%;
+    }
+    .searchfilter {
+        width: 50%;
+    }
+    .action {
+        width: 15% !important;
+        margin-left: 10px;
+    }
+    .chatsearch input ,.chatsearch select,.chatsearch button{
+        font-size: 12px;
+    }
+    .count {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .pagination{
+        float: left;
+        padding-left: 17px;
+        padding-top: 10px;
+    }
+    .chatviewbtn i {
+        padding-right: 4px;
+    }
+    .pagination li{
+        font-size: 12px;
+    }
+    .table > thead > tr > th, .table > tbody > tr > td {
+        padding-left: 8px !important;
+    }
+
+    /* edit agent */
+
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .agentform .form-group input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+    .agentform .form-group .reset {
+        width: 40%;
+    }
+    .profile label {
+        font-size: 12px;
+    }
+
+    /* chat list page */
+
+    .chattable .table > thead > tr > th, .table > tbody > tr > td {
+        font-size: 10px;
+        padding: 5px !important;
+    }
+    .visitor{
+        font-size: 15px!important;
+    }
+    .count > p {
+        font-size: 12px;
+    }
+    .accordion-toggle {
+        font-size: 13px;
+    }
+    .togglecount {
+        float: right;
+        position: relative;
+        top: 4px;
+    }
+
+    /* visitor list page */
+
+    .visitor{
+        font-size: 15px!important;
+    }
+    .count > p {
+        font-size: 12px;
+    }
+    .accordion-toggle {
+        font-size: 13px;
+    }
+    .togglecount {
+        float: right;
+        position: relative;
+        top: 4px;
+    }
+
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_content .col-md-3 {
+        float: left;
+        width: 100%;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .chat .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-2{
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-10{
+        float: left;
+        width: 100%;
+    }
+    .chattable .table > thead > tr > th, .table > tbody > tr > td {
+        font-size: 10px;
+        padding: 5px !important;
+    }
+
+    .visitorhead .col-md-8 {
+        float: left;
+        width:100%!important;
+    }
+    .visitorhead .col-md-4 {
+        float: left;
+        width: 100%!important;
+    }
+    .visitorhead .col-md-4 .count{
+        float: left;
+        width: 100%;
+    }
+    .visitor{
+        padding: 0!important;
+    }
+    .visitorhead .col-md-4 .count > p {
+        float: right;
+        font-size: 13px;
+        margin-bottom: 20px!important;
+        width: 100%;
+    }
+    .visitor .btn-group.bootstrap-select{
+        width: 63%!important;
+    }
+    .countsearch {
+        float: left;
+        padding-top: 10px;
+        width: 100%;
+    }
+    .countsearch input {
+        float: left;
+        padding: 3px 2px 0 10px;
+        width: 70%;
+    }
+    .iconbtn i {
+        top: -1px;
+    }
+    #toggle{
+        display: block!important;
+    }
+
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+    /*  Index page */
+    .chatmenu {
+        height: inherit;
+    }
+    .chatlist1{
+        display: none;
+    }
+    .userdetails {
+        padding: 0 15px;
+    }
+    .usericon i {
+        font-size: 35px;
+    }
+    .logo img {
+        width: 30%;
+    }
+    #toggle {
+        display: block !important;
+        float: right;
+        margin: 8px auto 2px;
+        padding-top: 10px;
+        position: relative;
+        right: 15px;
+        top: -30px;
+        width: 6%;
+    }
+    .aside .col-md-12.iconright{
+        float: left;
+        width:50%!important;
+    }
+    .userdetails {
+        border-bottom: inherit;
+        box-shadow: none;
+        float: right;
+        padding: 10px 15px 10px 17px;
+        position: relative;
+        top: 17px;
+        width: 55%;
+    }
+    .username{
+        display: none;
+    }
+    .usericon{
+        width: inherit;
+    }
+    .usericon i {
+        font-size: 29px;
+        position: relative;
+    }
+    .iconright .logo{
+        padding: 20px 0 18px;
+    }
+    .logo img {
+        width: 60%;
+    }
+    .chat_user {
+        position: relative;
+        right: -11%;
+    }
+    .profile label {
+        padding-bottom: 10px;
+    }
+    .profile .form-group {
+        padding-bottom: 25px;
+    }
+    #tag {
+        width: inherit;
+    }
+    .uploadbtns{
+        margin-top: 10px;
+    }
+    .uploadbtns p {
+        float: left;
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 10px!important;
+    }
+    .uploadbtns > div input{
+        margin-bottom: 5px;
+    }
+    .uploadbtns .col-sm-12{
+        padding-left: inherit!important;
+        padding-right: inherit!important;
+    }
+    .profilebtn, .profilebtn1 {
+        padding: 3px 8px !important;
+    }
+    .popupbtns {
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .chatbtn ,.msgbtn{
+        width: 140px;
+    }
+
+    /*  history page  */
+
+    .article .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .header .history {
+        font-size: 14px;
+    }
+    .chatcount {
+        padding-left: 17px;
+    }
+    .chatcount li{
+        font-size: 12px;
+        line-height: 14px;
+        padding-right: 4px;
+    }
+    .chatcount > li:first-child {
+        margin-right:inherit;
+    }
+    .chatviewbtn {
+        padding: 1px 0 !important;
+        font-size: 12px;
+    }
+    #triangle-left {
+        border-bottom: 13px solid transparent;
+        border-top: 14px solid transparent;
+        top: 2px;
+    }
+    .search{
+        width: 100%;
+    }
+    .searchfilter {
+        width: 50%;
+    }
+    .action {
+        width: 15% !important;
+        margin-left: 10px;
+    }
+    .chatsearch input ,.chatsearch select,.chatsearch button{
+        font-size: 12px;
+    }
+    .count {
+        float: left;
+        width: 100%;
+    }
+    .pagination{
+        float: left;
+        padding-left: 17px;
+        padding-top: 10px;
+    }
+    .pagination li{
+        font-size: 12px;
+    }
+    .table > thead > tr > th, .table > tbody > tr > td {
+        padding-left: 8px !important;
+    }
+
+    /* edit agent */
+
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .agentform .form-group input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+    .agentform .form-group .reset {
+        width: 40%;
+    }
+
+    /* visitor list page */
+
+    .visitor{
+        font-size: 15px!important;
+        padding: 0;
+    }
+    .count > p {
+        font-size: 12px;
+    }
+    .accordion-toggle {
+        font-size: 13px;
+    }
+    .togglecount {
+        float: right;
+        position: relative;
+        top: 4px;
+    }
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_content .col-md-3 {
+        float: left;
+        width: 100%;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .chat .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-2{
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-10{
+        float: left;
+        width: 100%;
+    }
+    .chattable .table > thead > tr > th, .table > tbody > tr > td {
+        font-size: 10px;
+        padding: 5px !important;
+    }
+
+    .visitorhead .col-md-8 {
+        float: left;
+        width:100%!important;
+    }
+    .visitorhead .col-md-4 {
+        float: left;
+        width: 100%!important;
+    }
+    .visitorhead .col-md-4 .count{
+        float: left;
+        width: 100%;
+
+    }
+    .visitorhead .col-md-4 .count > p {
+        float: right;
+        font-size: 13px;
+        margin-bottom: 20px!important;
+        width: 100%;
+    }
+    .visitor .btn-group.bootstrap-select{
+        width: 63%!important;
+    }
+    .countsearch {
+        float: left;
+        padding-top: 10px;
+        width: 100%;
+    }
+    .countsearch input {
+        float: left;
+        padding: 3px 2px 0 10px;
+        width: 70%;
+    }
+    .iconbtn i {
+        top: -1px;
+    }
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+    /*  Index page */
+    .chatmenu{
+        height: inherit;
+    }
+    .chatlist1{
+        display: none;
+    }
+    .userdetails {
+        padding: 5px 15px 10px;
+    }
+    .usericon i {
+        font-size: 35px;
+    }
+    .logo img {
+        width: 20%;
+    }
+    #toggle {
+        float: right;
+        margin: 0 auto 9px;
+        padding-top: 14px;
+        display: block !important;
+        position: relative;
+        right: 15px;
+        top: -28px;
+        width: 5%;
+    }
+
+    .aside .col-md-12.iconright{
+        float: left;
+        width:50%!important;
+    }
+    .userdetails {
+        border-bottom: inherit;
+        box-shadow: none;
+        float: right;
+        padding: 10px 15px 10px 17px;
+        position: relative;
+        top: 17px;
+        width: 55%;
+    }
+    .username{
+        display: none;
+    }
+    .usericon{
+        width: inherit;
+    }
+    .usericon i {
+        font-size: 29px;
+        position: relative;
+    }
+    .iconright .logo{
+        padding: 20px 0 18px;
+    }
+    .logo img {
+        width: 60%;
+    }
+    .chat_user {
+        position: relative;
+        right: -23%;
+    }
+
+
+    .profile label {
+        padding-bottom: 10px;
+    }
+    .profile .form-group {
+        padding-bottom: 25px;
+    }
+    #tag {
+        width: 100%;
+    }
+    .uploadbtns{
+        margin-top: 10px;
+    }
+    .uploadbtns p {
+        float: left;
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 10px!important;
+    }
+    .uploadbtns > div input{
+        margin-bottom: 5px;
+    }
+    .popupbtns {
+        margin-bottom: 10px;
+        padding-left: 5px;
+        width: 100%;
+    }
+    .chatbtn, .msgbtn {
+        width: 48%;
+    }
+
+    /*  history page  */
+
+    .article .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .header .history {
+        font-size: 16px;
+    }
+    .chatcount {
+        padding-left: 17px;
+    }
+    .chatcount li {
+        font-size: 13px;
+        line-height: 14px;
+        padding-right: 10px;
+    }
+    .chatcount > li:first-child {
+        margin-right: 7px;
+    }
+    .chatviewbtn {
+        padding: 1px 0 !important;
+        font-size: 13px;
+    }
+    .count {
+        float: left;
+        width: 100%;
+    }
+    #triangle-left {
+        border-bottom: 13px solid transparent;
+        border-top: 14px solid transparent;
+        top: 1px;
+    }
+    .search{
+        width: 100%;
+    }
+    .searchfilter {
+        width: 50%;
+    }
+    .action {
+        width: 20% !important;
+        margin-left: 10px;
+    }
+    .chatsearch input ,.chatsearch select,.chatsearch button{
+        font-size: 13px;
+    }
+    .pagination{
+        float:left;
+        padding-left: 17px;
+        padding-top: 10px;
+    }
+    .pagination li{
+        font-size: 13px;
+    }
+    .table > thead > tr > th, .table > tbody > tr > td {
+        padding-left: 8px !important;
+    }
+
+    /* edit agent */
+
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .agentform .form-group input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+    .agentform .form-group .reset {
+        width: 40%;
+    }
+
+    /* visitor list page */
+
+    .visitor{
+        font-size: 18px!important;
+    }
+    .count > p {
+        font-size: 12px;
+        float: left;
+    }
+    .accordion-toggle {
+        font-size: 14px;
+    }
+    .togglecount {
+        float: right;
+        position: relative;
+        top: 4px;
+    }
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_content .col-md-3 {
+        float: left;
+        width: 100%;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .chat .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-2{
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-10{
+        float: left;
+        width: 100%;
+    }
+    .chattable .table > thead > tr > th, .table > tbody > tr > td {
+        font-size: 10px;
+        padding: 5px !important;
+    }
+    .chattime .nav > li > a {
+        padding: 15px 10px !important;
+    }
+
+    .visitorhead .col-md-8 {
+        float: left;
+        width: 100%!important;
+    }
+    .visitorhead .col-md-4 {
+        float: left;
+        width: 100%!important;
+    }
+    .visitorhead .col-md-4 .count > p {
+        float: right;
+        font-size: 13px;
+        margin-bottom: 20px!important;
+        width: 100%;
+    }
+    .visitor{
+        padding: 0;
+    }
+    .visitor .btn-group.bootstrap-select{
+        width: 63%!important;
+    }
+    .countsearch {
+        float: left;
+        padding-top: 10px;
+        width: 100%;
+    }
+    .countsearch input {
+        float: left;
+        padding: 3px 2px 0 10px;
+        width: 70%;
+    }
+    .iconbtn i {
+        top: -1px;
+    }
+    #toggle{
+        display: block!important;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+    /*  Index page */
+    .chatmenu{
+        height: inherit;
+    }
+    .chatlist1{
+        display: none;
+    }
+    .aside .col-md-12.iconright{
+        float: left;
+        width:50%!important;
+    }
+    .userdetails {
+        border-bottom: inherit;
+        box-shadow: none;
+        float: right;
+        padding: 10px 15px 10px 17px;
+        position: relative;
+        top: 17px;
+        width: 43%;
+    }
+    .username{
+        display: none;
+    }
+    .usericon{
+        width: inherit;
+    }
+    .usericon i {
+        font-size: 35px;
+        position: relative;
+    }
+    .iconright .logo{
+        padding: 20px 0 18px;
+    }
+    .logo img {
+        width: 40%;
+    }
+    .chat_user {
+        position: relative;
+        right: -17%;
+    }
+    #toggle {
+        float: right;
+        margin: 4px auto 2px;
+        padding-top: 14px;
+        display: block !important;
+        position: relative;
+        right: 15px;
+        top: -34px;
+    }
+    .profile label {
+        padding-bottom: 10px;
+    }
+    .profile .form-group {
+        padding-bottom: 25px;
+    }
+    #tag {
+        width: 100%;
+    }
+    .uploadbtns{
+        margin-top: 10px;
+    }
+    .uploadbtns p {
+        float: left;
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 10px!important;
+    }
+    .uploadbtns > div input{
+        margin-bottom: 5px;
+    }
+    .popupbtns {
+        padding-left: 5px;
+        width: 100%;
+    }
+    .chatbtn, .msgbtn {
+        width: 48%;
+    }
+
+
+    /*  history page  */
+
+    .article .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .article .header .col-md-12 .col-md-8{
+        width: 66.66%;
+    }
+    .article .header .col-md-12 .col-md-4{
+        width: 34.44%;
+    }
+    .header .history {
+        font-size: 16px;
+    }
+    .chatcount {
+       width: 100%;
+        float: left;
+        margin-bottom: inherit!important;
+    }
+    .chatcount li {
+        font-size: 14px;
+        line-height: 14px;
+        padding-right: 10px;
+    }
+    .chatcount > li:first-child {
+        margin-right: 0;
+    }
+    .chatviewbtn i {
+        font-size: 14px;
+        padding-right: 3px;
+    }
+    .chatviewbtn {
+        font-size: 11px;
+        padding: 3px 3px !important;
+    }
+    .count {
+        float: left;
+        width: 100%;
+    }
+    #triangle-left {
+        border-bottom: 13px solid transparent;
+        border-right: 22px solid #37a0bf;
+        border-top: 12px solid transparent;
+        top: 3px;
+    }
+    .search{
+        width: 100%;
+    }
+    .searchfilter {
+        width: 42%;
+        margin-right: 4px;
+        padding-left: 4px;
+    }
+    .action {
+        width: 20% !important;
+        margin-left: 10px;
+    }
+    .chatsearch input ,.chatsearch select,.chatsearch button{
+        font-size: 12px;
+    }
+    .pagination{
+        float:left;
+    }
+    .pagination li{
+        font-size: 11px;
+    }
+    .pagination > li > a, .pagination > li > span {
+        padding: 2px 7px!important;
+    }
+    .table > thead > tr > th, .table > tbody > tr > td {
+        padding-left: 8px !important;
+    }
+    .clearbtn{
+        padding: 6px 8px!important;
+    }
+
+    /* edit agent */
+
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .agentform .form-group input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+    .agentform .form-group .reset {
+        width: 40%;
+    }
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+
+    /* visitor list page */
+
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_content .col-md-3 {
+        float: left;
+        width: 100%;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .chat .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-2{
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-10{
+        float: left;
+        width: 100%;
+    }
+    .visitorhead .col-md-8 {
+        float: left;
+        width: 66.6667%!important;
+    }
+    .visitorhead .col-md-4 {
+        float: left;
+        width: 33.333%!important;
+    }
+    .visitorhead .col-md-4 .count > p {
+        position: relative;
+        top: 14px;
+        float: right;
+    }
+
+
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+    /*  Index page */
+    .chatmenu{
+        height: inherit;
+    }
+    .chatlist1{
+        display: none;
+    }
+    .userdetails {
+        padding: 0 15px 15px 17px;
+    }
+    .usericon i {
+        font-size: 35px;
+    }
+    .logo img {
+        width: 20%;
+    }
+    #toggle {
+        display: block !important;
+        float: right;
+        margin: 0 auto 7px;
+        padding-top: 17px;
+        position: relative;
+        right: 13px;
+        top: -31px;
+    }
+    /*#toggle {*/
+        /*float: right;*/
+        /*margin: 4px auto 2px;*/
+        /*padding-top: 14px;*/
+      /**/
+    /*}*/
+    .aside .col-md-12.iconright{
+        float: left;
+        width:50%!important;
+    }
+    .userdetails {
+        border-bottom: inherit;
+        box-shadow: none;
+        float: right;
+        padding: 10px 15px 10px 17px;
+        position: relative;
+        top: 20px;
+        width: 43%;
+    }
+    .username{
+        display: none;
+    }
+    .usericon{
+        width: inherit;
+    }
+    .usericon i {
+        font-size: 35px;
+        position: relative;
+    }
+    .iconright .logo{
+        padding: 20px 0 18px;
+    }
+    .logo img {
+        width: 40%;
+    }
+    .chat_user {
+        position: relative;
+        right: -40%;
+    }
+
+
+
+    .profile label {
+        padding-bottom: 10px;
+    }
+    .profile .form-group {
+        padding-bottom: 25px;
+    }
+    #tag {
+        width: 50%;
+    }
+    .uploadbtns{
+        margin-top: 10px;
+    }
+    .uploadbtns p {
+        float: left;
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 10px!important;
+    }
+    .uploadbtns > div input{
+        margin-bottom: 5px;
+    }
+    .popupbtns {
+        /*margin-bottom: 10px;*/
+        padding-left: 5px;
+        width: 100%;
+    }
+    .chatbtn, .msgbtn {
+        width: 30%;
+    }
+    .browse {
+        width: 42%;
+    }
+
+
+    /*  history page  */
+
+    .article .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .article .header .col-md-12 .col-md-8{
+        width: 66.66%;
+    }
+    .article .header .col-md-12 .col-md-4{
+        width: 34.44%;
+    }
+    .header .history {
+        font-size: 16px;
+    }
+    .chatcount {
+        width: 100%;
+        float: left;
+        margin-bottom: inherit!important;
+    }
+    .chatcount li {
+        font-size: 14px;
+        line-height: 14px;
+        padding-right: 10px;
+    }
+    .chatcount > li:first-child {
+        margin-right: 0;
+    }
+    .chatviewbtn i {
+        font-size: 14px;
+        padding-right: 3px;
+    }
+    .chatviewbtn {
+        font-size: 11px;
+        padding: 3px 3px !important;
+    }
+    .count {
+        float: right;
+        width: 100%;
+    }
+    #triangle-left {
+        border-bottom: 13px solid transparent;
+        border-right: 22px solid #37a0bf;
+        border-top: 12px solid transparent;
+        top: 3px;
+    }
+    .search{
+        width: 100%;
+    }
+    .searchfilter {
+        width: 42%;
+        margin-right: 4px;
+        padding-left: 4px;
+    }
+    .action {
+        width: 20% !important;
+        margin-left: 10px;
+    }
+    .chatsearch input ,.chatsearch select,.chatsearch button{
+        font-size: 12px;
+    }
+    .pagination{
+        float:left;
+    }
+    .pagination li{
+        font-size: 13px;
+    }
+    .pagination > li > a, .pagination > li > span {
+        padding: 3px 14px !important;
+    }
+    .table > thead > tr > th, .table > tbody > tr > td {
+        padding-left: 8px !important;
+    }
+    .clearbtn{
+        padding: 6px 8px!important;
+    }
+
+    /* edit agent */
+
+    .agentform .form-group input[type="text"], input[type="email"] {
+        width: 60%;
+    }
+    .agentform .form-group .reset {
+        width: 40%;
+    }
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .agentform .form-group .col-sm-12 .col-sm-2 ,.agentform .form-group .col-sm-2{
+        width: 25%;
+        float: left;
+    }
+    .agentform .form-group .col-sm-12 .col-sm-10 ,.agentform .form-group .col-sm-10{
+        width: 75%;
+        float: left;
+    }
+    .agentform .form-group .checkbox{
+        padding-top: inherit!important;
+    }
+
+
+    /* visitor list page */
+
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 75%;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+        padding-left: 5px!important;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .visitor_location p {
+        font-size: 11px;
+    }
+    .scroll {
+        height: 598px;
+    }
+    .chattime .nav > li > a {
+        padding: 15px 8px !important;
+    }
+    .visituser_subtitle {
+        font-size: 11px;
+    }
+    .visitor_location p {
+        font-size: 10px;
+    }
+    .chat .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .visituser_form .form-group .col-sm-2{
+        float: left;
+        width: 100%;
+    }
+    .visitorhead .col-md-8 {
+        float: left;
+        width: 66.6667%!important;
+    }
+    .visitorhead .col-md-4 {
+        float: left;
+        width: 33.333%!important;
+    }
+    .visitorhead .col-md-4 .count > p {
+        position: relative;
+        top: 14px;
+        float: right;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 800px) {
+
+    .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .aside{
+        width: 20%;
+    }
+    .article{
+        width: 80%;
+    }
+    .popupbtns{
+        margin-bottom: 10px;
+    }
+    #tag{
+        width: 45%;
+    }
+    .upload {
+        margin: 5px 5px 5px 0;
+    }
+
+    /* history page */
+
+    .header .history {
+       width:inherit;
+    }
+    .historysec1 .col-md-4{
+        float: left;
+        width: 33%;
+    }
+    .historysec1 .col-md-8{
+        float: left;
+        width: 66.66%;
+    }
+    .chatcount {
+        float: left;
+        width: 100%;
+        margin-bottom: 5px!important;
+    }
+    .searchfilter{
+        width: 50%;
+    }
+    .action {
+        margin-left: 9px;
+        width: 17% !important;
+    }
+    .pagination li {
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .chatcount > li {
+        font-size: 15px;
+    }
+
+    /* edit agent page */
+    .agentform .form-group input[type="text"], input[type="email"] {
+        width: 60%;
+    }
+    .agentform .form-group .reset {
+        width: 40%;
+    }
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .agentform .form-group .col-sm-12 .col-sm-2 ,.agentform .form-group .col-sm-2{
+        width: 25%;
+        float: left;
+    }
+    .agentform .form-group .col-sm-12 .col-sm-10 ,.agentform .form-group .col-sm-10{
+        width: 75%;
+        float: left;
+    }
+
+    /* visitor list page */
+
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 75%;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+
+    /* visitor list page */
+
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 75%;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+        padding-left: 5px!important;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .visitor_location p {
+        font-size: 11px;
+    }
+    .scroll {
+        height: 598px;
+    }
+    .chattime .nav > li > a {
+        padding: 15px 8px !important;
+    }
+    .visituser_subtitle {
+        font-size: 11px;
+    }
+    .visitor_location p {
+        font-size: 10px;
+    }
+    .visitorhead .col-md-8 {
+        float: left;
+        width: 66.6667%!important;
+    }
+    .visitorhead .col-md-4 {
+        float: left;
+        width: 33.333%!important;
+    }
+    .visitorhead .col-md-4 .count > p {
+        position: relative;
+        top: 14px;
+    }
+
+}
+@media only screen and (min-width: 801px) and (max-width: 980px) {
+    .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .aside{
+        width: 20%;
+    }
+    .article{
+        width: 80%;
+    }
+    /*.popupbtns{*/
+        /*margin-bottom: 10px;*/
+    /*}*/
+    #tag{
+        width: 45%;
+    }
+    .upload {
+        margin: 5px 5px 5px 0;
+    }
+    .browse{
+        width: 100%;
+    }
+
+    /* history page */
+
+    .header .history {
+        width:inherit;
+    }
+    .historysec1 .col-md-4{
+        float: left;
+        width: 33%;
+    }
+    .historysec1 .col-md-8{
+        float: left;
+        width: 66.66%;
+    }
+    .chatcount {
+        float: left;
+        width: 100%;
+        margin-bottom: 5px!important;
+    }
+    .searchfilter{
+        width: 50%;
+    }
+    .action {
+        margin-left: 9px;
+        width: 17% !important;
+    }
+    .pagination li {
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .chatcount > li {
+        font-size: 15px;
+    }
+    .pagination {
+        float: left;
+    }
+
+    /* edit agent page */
+    .agentform .form-group input[type="text"], input[type="email"] {
+        width: 60%;
+    }
+    .agentform .form-group .reset {
+        width: 40%;
+    }
+    .agentform .form-group .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    .agentform .form-group .col-sm-12 .col-sm-2 ,.agentform .form-group .col-sm-2{
+        width: 25%;
+        float: left;
+    }
+    .agentform .form-group .col-sm-12 .col-sm-10 ,.agentform .form-group .col-sm-10{
+        width: 75%;
+        float: left;
+    }
+
+    /* visitor list page */
+
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 75%;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .visitor_location p {
+        font-size: 11px;
+    }
+    .scroll {
+        height: 598px;
+    }
+    .visitorhead .col-md-8 {
+        float: left;
+        width: 66.6667%;
+    }
+    .visitorhead .col-md-4 {
+        float: left;
+        width: 33.333%;
+    }
+    .visitorhead .col-md-4 .count > p {
+        position: relative;
+        top: 14px;
+    }
+
+}
+@media only screen and (min-width: 981px) and (max-width: 991px) {
+    .col-md-12{
+        float: left;
+        width: 100%;
+    }
+    .aside{
+        width: 20%;
+    }
+    .article{
+        width: 80%;
+    }
+    /*.popupbtns{*/
+        /*margin-bottom: 10px;*/
+    /*}*/
+    #tag{
+        width:50%;
+    }
+    .browse{
+        width: 100%;
+    }
+    .upload {
+        margin: 5px 5px 5px 0;
+    }
+
+    /* history page */
+
+    .header .history {
+        width:inherit;
+    }
+    .historysec1 .col-md-4{
+        float: left;
+        width: 33%;
+    }
+    .historysec1 .col-md-8{
+        float: left;
+        width: 66.66%;
+    }
+    .count{
+        margin-bottom: 5px;
+    }
+    .chatcount {
+        float: left;
+        width: 100%;
+        margin-bottom:0px!important;
+    }
+    .searchfilter{
+        width: 50%;
+    }
+    .action {
+        margin-left: 9px;
+        width: 17% !important;
+    }
+    .pagination{
+        float: left;
+    }
+    .pagination li {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .chatcount > li {
+        font-size: 15px;
+    }
+
+    /* visitor list page */
+
+    .visituser_content .col-md-9 {
+        float: left;
+        width: 75%;
+    }
+    .chattime .nav.nav-pills {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .visitor_location, .visitor_path {
+        float: left;
+        width: 100%;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .scroll {
+        height: 598px;
+    }
+    .visitorhead .col-md-8 {
+        float: left;
+        width: 66.6667%;
+    }
+    .visitorhead .col-md-4 {
+        float: left;
+        width: 33.333%;
+    }
+    .visitorhead .col-md-4 .count > p {
+        position: relative;
+        top: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    #tag{
+        width: 50%;
+    }
+    .browse{
+        width: 100%;
+    }
+    .upload {
+        margin: 5px 5px 5px 0;
+    }
+    /*.popupbtns{*/
+        /*margin-bottom: 10px;*/
+    /*}*/
+
+    /* history page */
+
+    .header .history {
+        width:inherit;
+    }
+    .historysec1 .col-md-4{
+        float: left;
+        width: 33%;
+    }
+    .historysec1 .col-md-8{
+        float: left;
+        width: 66.66%;
+    }
+    .count{
+        margin-bottom: 5px;
+    }
+    .chatcount {
+        float: left;
+        width: 100%;
+        margin-bottom:0px!important;
+    }
+    .searchfilter{
+        width: 50%;
+    }
+    .action {
+        margin-left: 9px;
+        width: 17% !important;
+    }
+    .pagination{
+        float: left;
+    }
+    .pagination li {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .chatcount > li {
+        font-size: 15px;
+    }
+
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .visitorhead .col-md-4 .count > p {
+        position: relative;
+        top: 14px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    #tag{
+        width: 40%;
+    }
+    /*.popupbtns{*/
+        /*margin-bottom: 10px;*/
+    /*}*/
+
+    .chatcount > li {
+        font-size: 12px;
+        line-height: 14px;
+        padding-right: 5px;
+    }
+    .chatviewbtn {
+        padding: 1px 0 !important;
+        font-size: 12px;
+    }
+    .chatviewbtn i {
+        padding-right: 4px;
+        font-size: 14px;
+    }
+    #triangle-left {
+        border-bottom: 12px solid transparent;
+        border-right: 18px solid #37a0bf;
+        border-top: 10px solid transparent;
+        top: 4px;
+    }
+    .chatcount > li:first-child {
+        margin-right: 0;
+    }
+    .action {
+        width: 20% !important;
+    }
+    .count{
+        float: right;
+    }
+    .chattime .nav > li {
+        width: 30%;
+    }
+    .chattime .nav > li:last-child{
+        width: 40%;
+    }
+    .chattime .nav > li > a {
+        padding: 11px 6px !important;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1335px) {
+    #tag{
+        width: 35%;
+    }
+    .chatcount > li {
+        font-size: 14px;
+    }
+    .action {
+        width: 23% !important;
+    }
+}

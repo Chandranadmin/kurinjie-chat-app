@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visitor Lists</title>
+
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link type="text/css" href="css/flags.css" rel="stylesheet">
+    <link type="text/css" href="css/responsive.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap-select.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css">
+    <script type="text/javascript" src="js/jquery.js" ></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.dialogextend.js" ></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="http://www.datejs.com/build/date.js"></script>
+    <script src="js/client.js"></script>
+    <script src="jquery/functions.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</head>
+<script>
+    function upload() {
+        document.getElementById("image_src").click();
+    }
+</script>
+<body>
+<section class="chat">
+    <div class="col-md-12 null">
+        <div class="col-md-2 aside null">
+            <div class="col-md-12 iconright">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Zopim"></a>
+                </div>
+            </div>
+            <div class="col-md-12 null iconright">
+                <div class="userdetails">
+                    <div class="chat_user">
+                        <div class="usericon">
+                            <i class="fa fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="username">
+                        <p>User</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" id="toggle" style="display: none;"><span></span></a>
+            <div class="col-md-12 null">
+                <div class="chatmenu" id="menu">
+                    <ul class="chatlist1">
+                        <li><a href="visitorlist.html"><i class="fa fa-comment"></i> visitors list</a></li>
+                        <li><a href="history.html"><i class="fa fa-clock-o"></i> History <span
+                                class="badge">6</span></a></li>
+                        <h6>Manage</h6>
+                        <li class="chatmenu_sub"><a href="EditAgent.html"><span><i
+                                class="fa fa-rotate-180 fa-spoon "></i></span> Agents</a></li>
+                        <h6>settings</h6>
+                        <li class="chatmenu_sub"><a href="index.html"><span><i class="fa fa-group"></i></span>
+                            Account</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-10 null article">
+            <div class="col-md-12 header visitorhead null">
+                <div class="col-md-12 null">
+                    <div class="col-md-8">
+                        <div class="visitor">
+                            <i class="fa fa-comment"></i> Visitors on Your Website
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="count">
+                            <!--<p>Total Visitors:1</p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 null">
+                    <div class="col-md-8">
+                        <div class="visitor">
+
+                            <button type="button" class="iconbtn"><i class="fa fa-angle-double-up"></i></button>
+                            <select class="selectpicker">
+                                <option></option>
+                                <option class="Active">Activity</option>
+                                <option class="title">Page Title</option>
+                                <option class="url">Page URL</option>
+                                <option>Country</option>
+                                <option>Serving Agent</option>
+                                <option>Browser</option>
+                                <option>Search Engine</option>
+                                <option>Search Term</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="countsearch">
+                            <input type="text" id="search" placeholder="Find a Visitor"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 null">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"></div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body no_padding">
+                                <div class="row" id="main-chat-screen">
+                                    <div class="header">
+                                        <div id="conversation">
+                                            <ul id="msgs" class="list-unstyled"></ul>
+                                        </div>
+                                        <div class="footer">
+                                            <form id="chatForm" class="form" action="/" method="GET">
+                                            <div class="form-group">
+                                            <textarea class="form-control text"
+                                            placeholder="Type Your Message Here..."
+                                            id="msg"></textarea>
+                                            </div>
+                                            <input type="submit" name="send_one" id="send_one"
+                                            value="submit" class="btn btn-success btn-sm">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chattable">
+                                    <table class="table table-responsive ui-responsive" data-role="table"
+                                           data-mode="columntoggle" id="myTable">
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                    <script>
+                                        $("#search").on("keyup", function () {
+                                            var value = $(this).val();
+
+                                            $("table tr").each(function (index) {
+                                                if (index !== 0) {
+                                                    $row = $(this);
+                                                    var id = $row.find("td a").text();
+                                                    $("#output").text(id);
+                                                    if (id.indexOf(value) !== 0) {
+                                                        $row.hide();
+                                                    }
+                                                    else {
+                                                        $row.show();
+                                                    }
+                                                }
+                                            });
+                                        });
+
+                                    </script>
+
+                                    <script type="text/javascript">
+                                        jQuery(document).ready(function () {
+                                            $("#visitorchatpopup").load("visitorchatpopup.html #content");
+                                            jQuery("#area").load("visitorchatpopup.html #content");
+                                            $("#area").load("visitorchatpopup.html #area > *");
+                                        });
+                                    </script>
+                                    <!--<button id="my-button">demo</button>-->
+                                    <div id="visitorchatpopup" style="display: none;">
+                                        <div id="area">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 null">
+        <div class="popupbtns">
+            <button type="button" class="btn btn-default chatbtn">No chat Requests</button>
+            <!--<button type="button" class="btn btn-default msgbtn"><i class="fa fa-user"></i> Hary</button>-->
+            <div id='dialogcont'></div>
+        </div>
+     </div>
+
+     <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $(".visitorpopup").click(function () {
+                $($('#visitorchatpopup').contents()).appendTo('#dialogcont')
+
+                $("#dialogcont").dialog({
+                    width: '85%', // overcomes width:'auto' and maxWidth bug
+                    maxWidth: 'auto',
+                    modal: true,
+                    fluid: true, //new option
+                    resizable: false
+                })
+                $("#dialogcont").dialog({"title": "Hary"})
+                        .dialogExtend({
+                      //"maximizable": true,
+                            "minimizable": true,
+                            "dblclick": "maximize",
+                            "icons": {"maximize": "ui-icon-plus"}
+                        });
+
+                // on window resize run function
+                $(window).resize(function () {
+                    fluidDialog();
+                });
+
+                // catch dialog if opened within a viewport smaller than the dialog width
+                $(document).on("dialogopen", ".ui-dialog", function (event, ui) {
+                    fluidDialog();
+                });
+
+                function fluidDialog() {
+                    var $visible = $(".ui-dialog:visible");
+                    $visible.each(function () {
+                        var $this = $(this);
+                        var dialog = $this.find(".ui-dialog-content").data("ui-dialog");
+                        if (dialog.options.fluid) {
+                            var wWidth = $(window).width();
+                            if (wWidth < (parseInt(dialog.options.maxWidth) + 60)) {
+                                $this.css("max-width", "100%");
+                            } else {
+                                $this.css("max-width", dialog.options.maxWidth + "px");
+                            }
+                            dialog.option("position", dialog.options.position);
+                        }
+                    });
+                }
+
+            });
+        });
+      </script>
+</section>
+</body>
+</html>
+
+
+
+
+
